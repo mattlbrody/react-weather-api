@@ -14,7 +14,7 @@ class SearchBar extends Component {
       <div>
         <form onSubmit={this.onFormSubmit}>
           <input 
-            placeholder="type in city name" 
+            placeholder="type in the name of a city or town and press enter" 
             onChange={e => this.setState({ location: e.target.value })}
             value={this.state.location}
           />
